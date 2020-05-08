@@ -309,7 +309,7 @@
     </Midl>
     <Link>
       <AdditionalDependencies>nvcore.lib;nvmath.lib;nvimage.lib;nvtt.lib;nvimage.lib;posh.lib;bc6h.lib;bc7.lib;nvmath.lib;cudart_static.lib;nvthread.lib;nvcore.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\..\..\..\..\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) </AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
