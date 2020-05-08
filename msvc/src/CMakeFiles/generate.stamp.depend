@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+C:/Development/op3d_active/nvidia-texture-tools-2.1.1/src/CMakeLists.txt
+C:/Development/op3d_active/nvidia-texture-tools-2.1.1/src/nvconfig.h.in
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeParseImplicitLinkInfo.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindCUDA.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindCUDA/select_compute_arch.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindOpenMP.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindThreads.cmake

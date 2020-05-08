@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Development/op3d_active/nvidia-texture-tools-2.1.1/extern/libsquish-1.15/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeParseImplicitLinkInfo.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindOpenMP.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageMessage.cmake

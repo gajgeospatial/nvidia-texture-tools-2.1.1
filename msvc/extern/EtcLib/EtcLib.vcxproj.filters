@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\extern\EtcLib\Etc\Etc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extern\EtcLib\Etc\EtcImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extern\EtcLib\Etc\EtcMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extern\EtcLib\EtcCodec\EtcBlock4x4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extern\EtcLib\EtcCodec\EtcBlock4x4Encoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extern\EtcLib\EtcCodec\EtcBlock4x4Encoding_ETC1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extern\EtcLib\EtcCodec\EtcBlock4x4Encoding_R11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extern\EtcLib\EtcCodec\EtcBlock4x4Encoding_RG11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extern\EtcLib\EtcCodec\EtcBlock4x4Encoding_RGB8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extern\EtcLib\EtcCodec\EtcBlock4x4Encoding_RGB8A1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extern\EtcLib\EtcCodec\EtcBlock4x4Encoding_RGBA8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extern\EtcLib\EtcCodec\EtcDifferentialTrys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extern\EtcLib\EtcCodec\EtcIndividualTrys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extern\EtcLib\EtcCodec\EtcSortedBlockList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\extern\EtcLib\Etc\Etc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extern\EtcLib\Etc\EtcColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extern\EtcLib\Etc\EtcColorFloatRGBA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extern\EtcLib\Etc\EtcConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extern\EtcLib\Etc\EtcImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extern\EtcLib\Etc\EtcMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extern\EtcLib\EtcCodec\EtcBlock4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extern\EtcLib\EtcCodec\EtcBlock4x4Encoding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extern\EtcLib\EtcCodec\EtcBlock4x4EncodingBits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extern\EtcLib\EtcCodec\EtcBlock4x4Encoding_ETC1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extern\EtcLib\EtcCodec\EtcBlock4x4Encoding_R11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extern\EtcLib\EtcCodec\EtcBlock4x4Encoding_RG11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extern\EtcLib\EtcCodec\EtcBlock4x4Encoding_RGB8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extern\EtcLib\EtcCodec\EtcBlock4x4Encoding_RGB8A1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extern\EtcLib\EtcCodec\EtcBlock4x4Encoding_RGBA8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extern\EtcLib\EtcCodec\EtcDifferentialTrys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extern\EtcLib\EtcCodec\EtcErrorMetric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extern\EtcLib\EtcCodec\EtcIndividualTrys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\extern\EtcLib\EtcCodec\EtcSortedBlockList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B0507B20-7E94-3836-9411-A009FF4C6098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D36D5891-1ABB-34C4-8FC1-2AECBD319CA0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

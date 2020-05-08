@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Development/op3d_active/nvidia-texture-tools-2.1.1/msvc/src/nvtt/CMakeFiles/cuda_compile_1.dir/cuda/cuda_compile_1_generated_CompressKernel.cu.obj.cmake.pre-gen
+C:/Development/op3d_active/nvidia-texture-tools-2.1.1/msvc/src/nvtt/CMakeFiles/cuda_compile_1.dir/cuda/cuda_compile_1_generated_CompressKernel.cu.obj.depend
+C:/Development/op3d_active/nvidia-texture-tools-2.1.1/src/nvtt/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindCUDA/run_nvcc.cmake
