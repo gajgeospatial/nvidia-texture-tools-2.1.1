@@ -52,7 +52,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{EA5CC949-1499-3170-AFA0-5C9035D913B4}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>bc1enc</ProjectName>

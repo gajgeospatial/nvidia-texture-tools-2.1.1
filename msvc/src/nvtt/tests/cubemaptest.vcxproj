@@ -52,7 +52,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{9FC61A6E-F0D7-3E47-98C6-8CB73258BD53}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>cubemaptest</ProjectName>

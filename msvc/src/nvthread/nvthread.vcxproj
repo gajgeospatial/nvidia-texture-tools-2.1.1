@@ -52,7 +52,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{6C3CD190-DB5A-3F57-B276-D0D4E9DB91A7}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>nvthread</ProjectName>

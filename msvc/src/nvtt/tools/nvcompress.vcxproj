@@ -52,7 +52,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{2ED79DF9-D310-349E-81F2-D8A435390EE2}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>nvcompress</ProjectName>
