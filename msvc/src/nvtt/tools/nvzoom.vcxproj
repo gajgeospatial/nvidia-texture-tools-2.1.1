@@ -233,8 +233,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;nvimage.lib;posh.lib;bc6h.lib;bc7.lib;nvmath.lib;cudart_static.lib;nvthread.lib;nvcore.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;posh.lib;bc7.lib;libpng14.lib;cudart_static.lib;nvthread.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\..\..\$(PNG_DIR)\projects\vstudio\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -278,8 +278,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;nvimage.lib;posh.lib;bc6h.lib;bc7.lib;nvmath.lib;cudart_static.lib;nvthread.lib;nvcore.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;posh.lib;bc7.lib;libpng14.lib;cudart_static.lib;nvthread.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\..\..\$(PNG_DIR)\projects\vstudio\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -323,8 +323,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;nvimage.lib;posh.lib;bc6h.lib;bc7.lib;nvmath.lib;cudart_static.lib;nvthread.lib;nvcore.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;posh.lib;bc7.lib;libpng14.lib;cudart_static.lib;nvthread.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\..\..\$(PNG_DIR)\projects\vstudio\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -368,8 +368,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;nvimage.lib;posh.lib;bc6h.lib;bc7.lib;nvmath.lib;cudart_static.lib;nvthread.lib;nvcore.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;posh.lib;bc7.lib;libpng14.lib;cudart_static.lib;nvthread.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\..\..\$(PNG_DIR)\projects\vstudio\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) </AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -413,8 +413,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;nvimage.lib;posh.lib;bc6h.lib;bc7.lib;nvmath.lib;cudart_static.lib;nvthread.lib;nvcore.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;posh.lib;bc7.lib;libpng14.lib;cudart_static.lib;nvthread.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\..\..\$(PNG_DIR)\projects\vstudio\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) </AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -458,8 +458,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;nvimage.lib;posh.lib;bc6h.lib;bc7.lib;nvmath.lib;cudart_static.lib;nvthread.lib;nvcore.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;posh.lib;bc7.lib;libpng14.lib;cudart_static.lib;nvthread.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\..\..\$(PNG_DIR)\projects\vstudio\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) </AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -506,8 +506,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;nvimage.lib;posh.lib;bc6h.lib;bc7.lib;nvmath.lib;cudart_static.lib;nvthread.lib;nvcore.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;posh.lib;bc7.lib;libpng14.lib;cudart_static.lib;nvthread.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\..\..\$(PNG_DIR)\projects\vstudio\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -555,8 +555,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;nvimage.lib;posh.lib;bc6h.lib;bc7.lib;nvmath.lib;cudart_static.lib;nvthread.lib;nvcore.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;posh.lib;bc7.lib;libpng14.lib;cudart_static.lib;nvthread.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\..\..\$(PNG_DIR)\projects\vstudio\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -604,8 +604,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;nvimage.lib;posh.lib;bc6h.lib;bc7.lib;nvmath.lib;cudart_static.lib;nvthread.lib;nvcore.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;posh.lib;bc7.lib;libpng14.lib;cudart_static.lib;nvthread.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\..\..\$(PNG_DIR)\projects\vstudio\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -653,8 +653,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;nvimage.lib;posh.lib;bc6h.lib;bc7.lib;nvmath.lib;cudart_static.lib;nvthread.lib;nvcore.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;posh.lib;bc7.lib;libpng14.lib;cudart_static.lib;nvthread.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\..\..\$(PNG_DIR)\projects\vstudio\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) </AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -702,8 +702,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;nvimage.lib;posh.lib;bc6h.lib;bc7.lib;nvmath.lib;cudart_static.lib;nvthread.lib;nvcore.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;posh.lib;bc7.lib;libpng14.lib;cudart_static.lib;nvthread.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\..\..\$(PNG_DIR)\projects\vstudio\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) </AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -751,8 +751,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;nvimage.lib;posh.lib;bc6h.lib;bc7.lib;nvmath.lib;cudart_static.lib;nvthread.lib;nvcore.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>nvcore.lib;nvimage.lib;nvtt.lib;bc6h.lib;nvmath.lib;posh.lib;bc7.lib;libpng14.lib;cudart_static.lib;nvthread.lib;nvsquish.lib;rg_etc1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\..\..\$(PNG_DIR)\projects\vstudio\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);$(CUDA_LIB_PATH)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) </AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>

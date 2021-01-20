@@ -828,7 +828,7 @@ static Image * loadPNG(Stream & s)
     }
     if(color_type & PNG_COLOR_MASK_ALPHA) {
         //img->flags |= PI_IF_HAS_ALPHA;
-        img->setFormat(Image::Format_ARGB);
+        img->format = Image::Format_ARGB;
     }
 
     // Read the image
@@ -908,21 +908,21 @@ static bool savePNG(Stream & s, const Image * img, const char ** tags/*=NULL*/)
 
     // Set image header information
     int color_type = PNG_COLOR_TYPE_RGBA;
-    switch(img->format())
+    switch(img->format)
     {
-        case Image::Format_RGB:		color_type = PNG_COLOR_TYPE_RGB; break;
+        case Image::Format_XRGB:    color_type = PNG_COLOR_TYPE_RGB; break;
         case Image::Format_ARGB:	color_type = PNG_COLOR_TYPE_RGBA; break;
     }
-    png_set_IHDR(png_ptr, info_ptr, img->width(), img->height(),
+    png_set_IHDR(png_ptr, info_ptr, img->width, img->height,
         8, color_type, PNG_INTERLACE_NONE,
         PNG_COMPRESSION_TYPE_DEFAULT,
         PNG_FILTER_TYPE_DEFAULT);
 
     // Set image data
-    png_bytep * row_data = new png_bytep[sizeof(png_byte) * img->height()];
-    for (uint i = 0; i < img->height(); i++) {
+    png_bytep * row_data = new png_bytep[sizeof(png_byte) * img->height];
+    for (uint i = 0; i < img->height; i++) {
         row_data[i] = (png_byte*)img->scanline (i);
-        if (img->format() == Image::Format_RGB) row_data[i]--; // This is a bit of a hack, libpng expects images in ARGB format not BGRA, it supports BGR swapping, but not alpha swapping.
+        if (img->format == Image::Format_XRGB) row_data[i]--; // This is a bit of a hack, libpng expects images in ARGB format not BGRA, it supports BGR swapping, but not alpha swapping.
     }
     png_set_rows(png_ptr, info_ptr, row_data);
 
@@ -933,12 +933,12 @@ static bool savePNG(Stream & s, const Image * img, const char ** tags/*=NULL*/)
         while(tags[2 * count] != NULL) count++;
 
         text = new png_text[count];
-        memset(text, 0, count * sizeof(png_text);
+        memset(text, 0, count * sizeof(png_text));
 
         for (int i = 0; i < count; i++) {
             text[i].compression = PNG_TEXT_COMPRESSION_NONE;
-            text[i].key = tags[2 * i + 0];
-            text[i].text = tags[2 * i + 1];
+            text[i].key = (png_charp)tags[2 * i + 0];
+            text[i].text = (png_charp)tags[2 * i + 1];
         }
 
         png_set_text(png_ptr, info_ptr, text, count);
@@ -948,7 +948,7 @@ static bool savePNG(Stream & s, const Image * img, const char ** tags/*=NULL*/)
         // component order is BGR(A)
         PNG_TRANSFORM_BGR |
         // Strip alpha byte for RGB images
-        (img->format() == Image::Format_RGB ? PNG_TRANSFORM_STRIP_FILLER : 0)
+        (img->format == Image::Format_XRGB ? PNG_TRANSFORM_STRIP_FILLER : 0)
         , NULL);
 
     // Finish things up
